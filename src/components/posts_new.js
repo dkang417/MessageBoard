@@ -77,7 +77,7 @@ function validate(values) {
         errors.title = "Enter a title that is at least 3 characters";
     }
     if (!values.categories) {
-        errors.categories = "Enter some categories";
+        errors.categories = "Enter a category";
     }
     if (!values.content) {
         errors.content = 'Enter some content please';
